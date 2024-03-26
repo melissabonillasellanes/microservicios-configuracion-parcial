@@ -18,12 +18,6 @@ spring:
       host: localhost
       port: 27017
       database: test
-  jpa:
-    hibernate:
-      ddl-auto: none
-    generate-ddl: false
-    show-sql: false
-
   application:
     name: serie-service
   eureka:
